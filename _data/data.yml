@@ -4,58 +4,42 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Rok Rejc
+  tagline: Senior .NET Developer
+  avatar: rokrejc.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: rok@rejc.org
+  timezone: Europe/Slovenia (CEST/CET) # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  website: https://rokrejc.si/ # Include the full website URL, including "http://" or "https://".
+  linkedin: rok-rejc
+  github: rrejc
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Slovenian
       level: Native
 
-    - idiom: French
+    - idiom: English
       level: Professional
 
-    - idiom: Spanish
+    - idiom: Croatian
       level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Running
       link:
 
-
-    - item: Snowboarding
+    - item: Cycling
       link:
-
 
     - item: Cooking
       link:
@@ -64,222 +48,124 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Senior .NET Developer with 15+ years of experience building high-volume, distributed systems for banking, fintech, and enterprise platforms. I specialize in designing scalable microservices, optimizing performance in data-heavy environments, and modernizing mission-critical applications.  
+    
+    I’ve led projects that stabilized cloud document management systems handling hundreds of millions of documents, engineered high-performance microservices for crypto finance, and built search platforms indexing billions of words. My focus is always on delivering measurable impact—whether that’s a 10x faster migration, improved system reliability, or streamlined workflows.
+    
+    A few career highlights:
+     - Modernized and stabilized cloud document management systems for the finance sector (hundreds of millions of documents, TBs of data)
+     - Developed high-performance indexing and search platforms for large language and text datasets
+     - Consistently improved system performance, reliability, and process efficiency in every role
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: BSc in Computer Science
+    university: University of Ljubljana, Faculty of Computer and Information Science
+    time: 2017
+  - degree: Engineer of Informatics
+    university: Centre for business education
+    time: 2014
+  - degree: Computer Tehnician
+    university: School centre Kranj
+    time: 2002
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Senior Software Developer
+    time: Jun 2022 - Present
+    company: Börse Stuttgart Digital, Kranj, Slovenia
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Developing and maintaining microservices for tracking trades, transactions, and various balance states within a regulated crypto custody platform.
+      - Implementing reporting features and improving the performance of key backend functionalities.
+      - Contributing to the stability and scalability of core services in a high-compliance financial environment.      
+      - Skills: ASP.NET Core · Microsoft SQL Server · Entity Framework (EF) Core · RabbitMQ · MassTransit · Docker · Kubernetes · TypeScript · React.js · Elastic Stack (ELK) · OpenTelemetry · xUnit · Keycloak      
+  - role: Senior Software Developer → Head of Software Development
+    time: Sep 2017 - Jun 2022
+    company: Mikrocop d.o.o., Ljubljana, Slovenia
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - Maintained and modernized InDoc RMS, a cloud-based document management system used by major banks and enterprises (hundreds of millions of documents, terabytes of data).
+      - Led bug-fixing and stability initiatives, rapidly improving product reliability for large-scale clients.
+      - Developed new features for digital signing and document processes in the next-generation InDoc EDGE platform.
+      - Engineered a high-speed data migration tool, accelerating migration speed by 10x.
+      - Oversaw on-premises installations and provided technical support to integrators.
+      - Progressed to leadership roles, managing teams of up to 30+ engineers.
+      - Skills: .NET · ASP.NET · ASP.NET Core · Microsoft SQL Server · Redis · Elasticsearch · ServiceStack · SOAP · WinForms · BPMN · JavaScript · xUnit
+  - role: Software Developer
+    time: Jun 2008 - Aug 2017
+    company: Amebis d.o.o., Kamnik, Slovenia
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      - Designed and implemented web portals for dictionary search and authoring, powering platforms such as fran.si and termania.net.
+      - Developed advanced web portals for searching written and spoken language corpora, with scalable architectures supporting over a billion indexed words and complex linguistic queries.
+      - Built robust REST APIs and real-time chat widgets, integrating modern web technologies for seamless user experiences.
+      - Collaborated closely with clients and external QA teams, driving successful releases and ensuring high quality and user satisfaction.
+      - Skills: .NET Framework · ASP.NET MVC · Microsoft SQL Server · Entity Framework · Solr · JavaScript · WebSocket · XML · XSLT · CSS
+  - role: Software Developer
+    time: Jan 2008 - Jun 2008
+    company: IDM | Ingénierie Diffusion Multimedia, Paris, France
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      - Developed modules for dictionary production systems, including data extraction, indexing, and import/export processes.
+      - Improved automation and efficiency for leading global dictionary publishers.
+      - Skills: JavaServer Pages (JSP) · Spring Framework · Hibernate · MySQL · Lucene · XML
+  - role: Software Developer
+    time: Aug 2007 - Dec 2007
+    company: Datalab d.d., Ljubljana, Slovenia
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      - Enhanced user customization and styling capabilities in the Pantheon ERP desktop application.
+      - Skills: Delphi · DevExpress Controls
+  - role: Software Developer (Student Work)
+    time: Jul 2005 - Jul 2007
+    company: Abanka Vipa d.d. Ljubljana, Slovenia
+    details: |
+      - Built and maintained key modules for the bank’s core desktop application (data entry, validation, reporting).
+      - Developed complex data exports/imports and analytics for accounting and compliance.      
+      - Skills: Delphi · Oracle Database · PL/SQL · XML      
+  - role: Software Developer (Student Work)
+    time: Feb 2001 - Jun 2005
+    company: Fe-sta d.o.o., Jesenice, Slovenia
+    details: |
+      - Designed and implemented a documentation management system for a major automotive parts company, featuring advanced permissions and full-text search.
+      - Built a desktop solution for calibration and inventory management of measuring tools, including automated suitability checks and reporting.      
+      - Skills: Delphi · Oracle Database · Data Extraction · Full Text Search      
 
 projects:
-  title: Projects
+  title: Side Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Contributed to national projects in Slovene language technology, building scalable backends and intuitive interfaces for written and spoken corpora (1B+ words, 300+ hours of speech), enabling advanced search, concordance, and linguistic analysis.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: DSDE — Terminology Portal
+    link: "https://rsdo.slovenscina.eu/en/terminology-portal"
+    tagline: "As part of the Development of Slovene in a Digital Environment project, I created a multi-tenant backend and a React-based frontend for the Terminology Portal. My contribution enabled indexing and concordance search for specialized texts while supporting independent portal instances and improving accessibility for a broad range of users."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: Gos 2.0 / 2.1 — Corpus of Spoken Slovene
+    link: "https://viri.cjvt.si/gos/"
+    tagline: "For Gos 2.0 / 2.1, I developed both backend and frontend solutions to enable search across over 320 hours of spoken recordings and two million words of transcription. I implemented features such as dual transcription search (standardized vs. pronunciation-based), comparison views, and audio playback, supported by ASP.NET Core, Razor Pages, JavaScript, and ElasticSearch."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: Gigafida 2.0
+    link: "https://viri.cjvt.si/gigafida/"
+    tagline: "I built the backend and frontend for Gigafida 2.0, a reference corpus of written Slovene containing more than 1.2 billion words. My work focused on implementing high-performance indexing and advanced search for concordances, collocations, and word lists using ASP.NET Core, Razor Pages, JavaScript, and ElasticSearch."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: .NET / ASP.NET Core
     level: 95%
 
-  - name: Ruby on Rails
-    level: 85%
+  - name: SQL Server & PostgreSQL 
+    level: 90%
 
-  - name: Sketch & Photoshop
+  - name: Elasticsearch & Redis
+    level: 90%
+
+  - name: RabbitMQ / MassTransit
+    level: 90%
+
+  - name: Docker & Kubernetes
+    level: 80%
+
+  - name: JavaScript / TypeScript / React
     level: 60%
 
 footer: >
