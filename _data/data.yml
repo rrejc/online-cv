@@ -79,7 +79,7 @@ experiences:
       - Developing and maintaining microservices for tracking trades, transactions, and various balance states within a regulated crypto custody platform.
       - Implementing reporting features and improving the performance of key backend functionalities.
       - Contributing to the stability and scalability of core services in a high-compliance financial environment.      
-      - Skills: ASP.NET Core · Microsoft SQL Server · Entity Framework (EF) Core · RabbitMQ · MassTransit · Docker · Kubernetes · TypeScript · React.js · Elastic Stack (ELK) · OpenTelemetry · xUnit · Keycloak      
+      - Skills: ASP.NET Core · Microsoft SQL Server · Entity Framework (EF) Core · RabbitMQ · MassTransit · Keycloak · Docker · Kubernetes · OpenTelemetry · Elastic Stack (ELK) · xUnit · TypeScript · React.js      
   - role: Senior Software Developer → Head of Software Development
     time: Sep 2017 - Jun 2022
     company: Mikrocop d.o.o., Ljubljana, Slovenia
@@ -90,7 +90,7 @@ experiences:
       - Engineered a high-speed data migration tool, accelerating migration speed by 10x.
       - Oversaw on-premises installations and provided technical support to integrators.
       - Progressed to leadership roles, managing teams of up to 30+ engineers.
-      - Skills: .NET · ASP.NET · ASP.NET Core · Microsoft SQL Server · Redis · Elasticsearch · ServiceStack · SOAP · WinForms · BPMN · JavaScript · xUnit
+      - Skills: ASP.NET Core · ASP.NET · Microsoft SQL Server · Redis · Elasticsearch · ServiceStack · WinForms · JavaScript · xUnit · BPMN · SOAP
   - role: Software Developer
     time: Jun 2008 - Aug 2017
     company: Amebis d.o.o., Kamnik, Slovenia
@@ -99,14 +99,14 @@ experiences:
       - Developed advanced web portals for searching written and spoken language corpora, with scalable architectures supporting over a billion indexed words and complex linguistic queries.
       - Built robust REST APIs and real-time chat widgets, integrating modern web technologies for seamless user experiences.
       - Collaborated closely with clients and external QA teams, driving successful releases and ensuring high quality and user satisfaction.
-      - Skills: .NET Framework · ASP.NET MVC · Microsoft SQL Server · Entity Framework · Solr · JavaScript · WebSocket · XML · XSLT · CSS
+      - Skills: ASP.NET · Microsoft SQL Server · Entity Framework · WebSocket · SignalR · Solr · XML · XSLT · CSS · JavaScript
   - role: Software Developer
     time: Jan 2008 - Jun 2008
     company: IDM | Ingénierie Diffusion Multimedia, Paris, France
     details: |
       - Developed modules for dictionary production systems, including data extraction, indexing, and import/export processes.
       - Improved automation and efficiency for leading global dictionary publishers.
-      - Skills: JavaServer Pages (JSP) · Spring Framework · Hibernate · MySQL · Lucene · XML
+      - Skills: JavaServer Pages (JSP) · Spring Framework · PostgreSQL · Hibernate · Lucene · XML · XSLT
   - role: Software Developer
     time: Aug 2007 - Dec 2007
     company: Datalab d.d., Ljubljana, Slovenia
